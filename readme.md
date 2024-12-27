@@ -60,7 +60,7 @@ Download the following files:
 - [t10k-images-idx3-ubyte.gz](http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz)
 - [t10k-labels-idx1-ubyte.gz](http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz)
 
-Extract the files and place them in an `data` directory within your project.
+Extract the files and place them in an `data/MNIST/raw` directory within your project.
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
