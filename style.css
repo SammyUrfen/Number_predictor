@@ -179,3 +179,60 @@ button:hover {
     background-color: #00ff9d;
     color: #1a1a1a;
 }
+
+
+@media (max-width: 768px) {
+    #heading {
+        font-size: 2rem;
+    }
+
+    .grid_container {
+        padding: 1rem;
+    }
+
+    .grid {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .pixel {
+        width: 0.7rem;
+        height: 0.7rem;
+    }
+
+    .controls {
+        width: 15rem;
+    }
+
+    button {
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #heading {
+        font-size: 1.5rem;
+    }
+
+    .grid {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .pixel {
+        width: 0.5rem;
+        height: 0.5rem;
+    }
+
+    .controls {
+        width: 10rem;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    button {
+        padding: 0.3rem 0.7rem;
+        font-size: 0.7rem;
+    }
+}
